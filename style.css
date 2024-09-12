@@ -1,0 +1,77 @@
+/* Add a black background color to the top navigation */
+.navbar {
+  z-index: 3;
+  background-color: #961A6B;
+  overflow: hidden;
+  position: fixed;
+  border-radius: 50px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;            
+  margin: 15px;
+  text-align: center;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0%;
+}
+.navbar a {
+  display: inline-block;
+  color: #ffff;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font: Ubuntu;
+  text-align: center;
+
+}
+/* Change the color of links on hover */
+.navbar a:hover {
+  display: inline-block;
+  background-color: #FFB000;
+  color: white;
+  border-radius: 50px;
+  text-emphasis-color: #ffff;
+}
+#logo{
+  text-align: center;
+  
+}
+.partic {
+  height: 100vh;
+}
+.birds {
+  z-index: 1;
+  position: static;
+  display: flex;
+  margin: 0px;
+  background: #000000;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+.content {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+#videos {
+  background: #7b961a;
+}
+#about {
+  background: #1a7996;
+}
+#links {
+  background: #961a1a;
+}
+#addiction {
+  background: #1a965e;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
